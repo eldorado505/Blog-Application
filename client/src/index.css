@@ -1,0 +1,10 @@
+.raj {
+    padding: 25px 35px;
+    display: flex;
+    flex: 1;
+    overflow: auto;
+    flex-direction: column;
+    & > div, & > button, & > p {
+        margin-top: 20px; 
+     }
+}
